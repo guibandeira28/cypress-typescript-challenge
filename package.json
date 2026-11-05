@@ -1,0 +1,27 @@
+{
+  "name": "cypress-typescript-challenge",
+  "version": "1.0.0",
+  "description": "Desafio técnico de automação de testes utilizando Cypress, TypeScript e Node.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.ts\"",
+    "test:e2e": "cypress run --spec \"cypress/e2e/frontend/**/*.cy.ts\"",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "qa",
+    "test-automation",
+    "api-testing",
+    "e2e"
+  ],
+  "author": "Guilherme Bandeira",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "cypress": "^16.2.1",
+    "typescript": "^7.0.2"
+  }
+}
